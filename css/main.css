@@ -1,0 +1,397 @@
+.body {
+    background-size: 100%;
+    overflow-x: hidden;
+}
+
+@keyframes grad {
+}
+.letters {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 30vw;
+  overflow: hidden;
+  position: relative; 
+}
+
+.bukvi {
+    font-family: 'Helvetica-Bold';
+    color: black;
+    position: absolute;
+}
+
+
+.l1 {
+    font-size: 9vw;
+    top:-100vw;
+    left: 2vw;
+    animation: fall1 2s linear infinite, rot1 2s infinite;
+    animation-delay: 1.15s;
+    animation-play-state: running;
+}
+
+.l1:hover {
+    animation-play-state: paused;
+    font-size: 10vw;
+    color: #A6B5B7;
+}
+
+@keyframes fall1 {
+    0% {
+        top: -6vw;
+        left: 2vw;
+    }
+    100% {
+        top: 33vw;
+        left: 4vw;
+    }
+}
+@keyframes rot1 {
+    0% {
+        rotate: 70deg;
+    }
+    100% {
+        rotate: -10deg
+    }
+}
+
+
+.l2 {
+    font-size: 20vw;
+    top:-100vw;
+    left: 10vw;
+    animation: fall2 2s linear infinite, rot2 2s infinite;
+    animation-delay: 0s;
+    animation-play-state: running;
+}
+
+.l2:hover {
+    animation-play-state: paused;
+    font-size: 21vw;
+    color: #A6B5B7;
+}
+
+@keyframes fall2 {
+    0% {
+        top: -25vw;
+        left: 10vw;
+    }
+    100% {
+        top: 33vw;
+        left: 16vw;
+    }
+}
+@keyframes rot2 {
+    0% {
+        rotate: -70deg;
+    }
+    100% {
+        rotate: -20deg
+    }
+}
+
+
+.l3 {
+    font-size: 6vw;
+    top:-100vw;
+    left: 10vw;
+    animation: fall3 2s linear infinite, rot3 2s infinite;
+    animation-delay: 2s;
+    animation-play-state: running;
+}
+
+.l3:hover {
+    animation-play-state: paused;
+    font-size: 7vw;
+    color: #A6B5B7;
+}
+
+@keyframes fall3 {
+    0% {
+        top: -25vw;
+        left: 6vw;
+    }
+    100% {
+        top: 33vw;
+        left: 5vw;
+    }
+}
+@keyframes rot3 {
+    0% {
+        rotate: -70deg;
+    }
+    100% {
+        rotate: -20deg
+    }
+}
+
+
+.l4 {
+    font-size: 13vw;
+    top:-100vw;
+    left: 29vw;
+    animation: fall4 2s linear infinite, rot4 2s infinite;
+    animation-delay: 0.9s;
+    animation-play-state: running;
+}
+
+.l4:hover {
+    animation-play-state: paused;
+    font-size: 14vw;
+    color: #A6B5B7;
+}
+
+@keyframes fall4 {
+    0% {
+        top: -20vw;
+        left: 29vw;
+    }
+    100% {
+        top: 33vw;
+        left: 28vw;
+    }
+}
+@keyframes rot4 {
+    0% {
+        rotate: 70deg;
+    }
+    100% {
+        rotate: -10deg
+    }
+}
+
+
+.l5 {
+    font-size: 9vw;
+    top:-100vw;
+    left: 35vw;
+    animation: fall5 2s linear infinite, rot5 2s infinite;
+    animation-delay: 2.4s;
+    animation-play-state: running;
+}
+
+.l5:hover {
+    animation-play-state: paused;
+    font-size: 9vw;
+    color: #A6B5B7;
+}
+
+@keyframes fall5 {
+    0% {
+        top: -25vw;
+        left: 35vw;
+    }
+    100% {
+        top: 33vw;
+        left: 37vw;
+    }
+}
+@keyframes rot5 {
+    0% {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 50deg
+    }
+}
+
+
+.l6 {
+    font-size: 5vw;
+    top:-100vw;
+    left: 43vw;
+    animation: fall6 2s linear infinite, rot6 2s infinite;
+    animation-delay: 0.3s;
+    animation-play-state: running;
+}
+
+.l6:hover {
+    animation-play-state: paused;
+    font-size: 6vw;
+    color: #A6B5B7;
+}
+
+@keyframes fall6 {
+    0% {
+        top: -25vw;
+        left: 43vw;
+    }
+    100% {
+        top: 33vw;
+        left: 41vw;
+    }
+}
+@keyframes rot6 {
+    0% {
+        rotate: -15deg;
+    }
+    100% {
+        rotate: -70deg
+    }
+}
+
+
+.l7 {
+    font-size: 13vw;
+    top:-100vw;
+    left: 50vw;
+    animation: fall7 2s linear infinite, rot7 2s infinite;
+    animation-delay: 1.4s;
+    animation-play-state: running;
+}
+
+.l7:hover {
+    animation-play-state: paused;
+    font-size: 14vw;
+    color: #A6B5B7;
+}
+
+@keyframes fall7 {
+    0% {
+        top: -25vw;
+        left: 50vw;
+    }
+    100% {
+        top: 33vw;
+        left: 51vw;
+    }
+}
+@keyframes rot7 {
+    0% {
+        rotate: -70deg;
+    }
+    100% {
+        rotate: -20deg
+    }
+}
+
+
+.l8 {
+    font-size: 28vw;
+    top:-100vw;
+    left: 62vw;
+    animation: fall8 2s linear infinite, rot8 2s infinite;
+    animation-delay: 2.7s;
+    animation-play-state: running;
+}
+
+.l8:hover {
+    animation-play-state: paused;
+    font-size: 29vw;
+    color: #A6B5B7;
+}
+
+@keyframes fall8 {
+    0% {
+        top: -30vw;
+        left: 62vw;
+    }
+    100% {
+        top: 33vw;
+        left: 61vw;
+    }
+}
+@keyframes rot8 {
+    0% {
+        rotate: -15deg;
+    }
+    100% {
+        rotate: -50deg
+    }
+}
+
+
+.l9 {
+    font-size: 11vw;
+    top:-100vw;
+    left: 82vw;
+    animation: fall9 2s linear infinite, rot9 2s infinite;
+    animation-delay: 1.1s;
+    animation-play-state: running;
+}
+
+.l9:hover {
+    animation-play-state: paused;
+    font-size: 12vw;
+    color: #A6B5B7;
+}
+
+@keyframes fall9 {
+    0% {
+        top: -25vw;
+        left: 82vw;
+    }
+    100% {
+        top: 33vw;
+        left: 84vw;
+    }
+}
+@keyframes rot9 {
+    0% {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 80deg
+    }
+}
+
+
+.l10 {
+    font-size: 5vw;
+    top:-100vw;
+    left: 89vw;
+    animation: fall10 2s linear infinite, rot10 2s infinite;
+    animation-delay: 1.4s;
+    animation-play-state: running;
+}
+
+.l10:hover {
+    animation-play-state: paused;
+    font-size: 6vw;
+    color: #A6B5B7;
+}
+
+@keyframes fall10 {
+    0% {
+        top: -25vw;
+        left: 89vw;
+    }
+    100% {
+        top: 33vw;
+        left: 90vw;
+    }
+}
+@keyframes rot10 {
+    0% {
+        rotate: -70deg;
+    }
+    100% {
+        rotate: -20deg
+    }
+}
+
+.title {
+    position: relative;
+    background-color: black; 
+    width: 100%;
+    height: 17vw;
+    overflow: hidden;
+}
+
+.title img {
+    position: absolute;
+    top: 0;
+    left: 2.5%;
+    width: 95%;
+    height: 100%;
+}
+
+
+
+
+.bugs {
+    position: relative;
+    background-color: #CAD6D8;
+    width: 100%;
+    height: 10vw;
+    overflow: hidden;
+}

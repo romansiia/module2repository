@@ -444,13 +444,55 @@
   position: relative; 
 }
 
+.grizi_div {
+    margin-left: 1.5vw;
+    margin-top: 4vw;
+    width: 100%;
+    height: 7vw;
+}
+
 .grizi {
-    margin-left: 2vw;
-    margin-top: 5vw;
+    height: 100%;
+    transform-origin: left center;      
+    transition: transform 0.4s ease;   
+}
+
+.grizi:hover {
+  transform: scaleX(1.85);            
+}
+
+.so_div {
+    position: relative;
+    margin-left: 1vw;
+    margin-top: 2vw;
+    width: 100%;
+    height: 7vw;
 }
 
 .so {
-    position: absolute;
-    margin-left: 2vw;
-    margin-top: 2vw;
+    height: 75%;
+    transform-origin: left center;
+    transition: transform 0.4s ease;
+}
+
+.so:hover {
+  transform: scaleX(5);            
+}
+
+.smislom_div {
+    position: relative;
+    margin-left: 1vw;
+    margin-top: 1.5vw;
+    width: 100%;
+    height: 7vw;
+}
+
+.smislom {
+    height: 75%;
+    transform-origin: left center;
+    transition: transform 0.4s ease;
+}
+
+.smislom:hover {
+  transform: scaleX(1.2);            
 }

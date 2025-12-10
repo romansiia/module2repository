@@ -435,3 +435,22 @@
     transform: translateX(-50%);
   }
 }
+
+.phrase {
+  background-color: rgb(202, 45, 45);
+  width: 64vw;
+  height: 30vw;
+  overflow: hidden;
+  position: relative; 
+}
+
+.grizi {
+    margin-left: 2vw;
+    margin-top: 5vw;
+}
+
+.so {
+    position: absolute;
+    margin-left: 2vw;
+    margin-top: 2vw;
+}

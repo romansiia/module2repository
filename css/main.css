@@ -437,8 +437,8 @@
 }
 
 .phrase {
-  background-color: rgb(202, 45, 45);
-  width: 64vw;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
   height: 30vw;
   overflow: hidden;
   position: relative; 
@@ -446,8 +446,8 @@
 
 .grizi_div {
     margin-left: 1.5vw;
-    margin-top: 4vw;
-    width: 100%;
+    margin-top: 3vw;
+    width: 62.5vw;
     height: 7vw;
 }
 
@@ -465,7 +465,7 @@
     position: relative;
     margin-left: 1vw;
     margin-top: 2vw;
-    width: 100%;
+    width: 63vw;
     height: 7vw;
 }
 
@@ -483,7 +483,7 @@
     position: relative;
     margin-left: 1vw;
     margin-top: 1.5vw;
-    width: 100%;
+    width: 63vw;
     height: 7vw;
 }
 
@@ -495,4 +495,16 @@
 
 .smislom:hover {
   transform: scaleX(1.2);            
+}
+
+.worms {
+    position: absolute;
+    margin-left: 64vw;
+    margin-top: -29vw;
+    height: 27.5vw;
+    overflow: hidden;
+}
+
+.worms img {
+    height: 27.5vw;
 }

@@ -498,11 +498,11 @@
 }
 
 .worms {
-    position: absolute;
     margin-left: 64vw;
     margin-top: -29vw;
     height: 27.5vw;
     width: 36vw;
+    position: absolute;
     animation: sprite 5s steps(4) infinite;
     background-size: 400% 100%;
     background: url("../img/worms.svg");
@@ -515,4 +515,11 @@
  
 .worms img {
     height: 100%;
+}
+
+
+.eat {
+    height: 30vw;
+    width: 30vw;
+    overflow: hidden;
 }

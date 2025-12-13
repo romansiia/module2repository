@@ -3,8 +3,6 @@
     overflow-x: hidden;
 }
 
-@keyframes grad {
-}
 .letters {
   background-color: rgb(255, 255, 255);
   width: 100%;
@@ -18,7 +16,6 @@
     color: black;
     position: absolute;
 }
-
 
 .l1 {
     font-size: 9vw;
@@ -45,11 +42,11 @@
         left: 4vw;
     }
 }
+
 @keyframes rot1 {
     0% {rotate: 70deg;}
     100% {rotate: -10deg}
 }
-
 
 .l2 {
     font-size: 20vw;
@@ -76,11 +73,11 @@
         left: 16vw;
     }
 }
+
 @keyframes rot2 {
     0% {rotate: -70deg;}
     100% {rotate: -20deg}
 }
-
 
 .l3 {
     font-size: 6vw;
@@ -107,11 +104,11 @@
         left: 5vw;
     }
 }
+
 @keyframes rot3 {
     0% {rotate: -70deg;}
     100% {rotate: -20deg}
 }
-
 
 .l4 {
     font-size: 13vw;
@@ -138,11 +135,11 @@
         left: 28vw;
     }
 }
+
 @keyframes rot4 {
     0% {rotate: 70deg;}
     100% {rotate: -10deg}
 }
-
 
 .l5 {
     font-size: 9vw;
@@ -169,11 +166,11 @@
         left: 37vw;
     }
 }
+
 @keyframes rot5 {
     0% {rotate: 0deg;}
     100% {rotate: 50deg}
 }
-
 
 .l6 {
     font-size: 5vw;
@@ -200,11 +197,11 @@
         left: 41vw;
     }
 }
+
 @keyframes rot6 {
     0% {rotate: -15deg;}
     100% {rotate: -70deg}
 }
-
 
 .l7 {
     font-size: 13vw;
@@ -231,11 +228,11 @@
         left: 51vw;
     }
 }
+
 @keyframes rot7 {
     0% {rotate: -70deg;}
     100% {rotate: -20deg}
 }
-
 
 .l8 {
     font-size: 28vw;
@@ -262,11 +259,11 @@
         left: 61vw;
     }
 }
+
 @keyframes rot8 {
     0% {rotate: -15deg;}
     100% {rotate: -50deg}
 }
-
 
 .l9 {
     font-size: 11vw;
@@ -293,11 +290,11 @@
         left: 84vw;
     }
 }
+
 @keyframes rot9 {
     0% {rotate: 0deg;}
     100% {rotate: 80deg}
 }
-
 
 .l10 {
     font-size: 5vw;
@@ -324,11 +321,11 @@
         left: 90vw;
     }
 }
+
 @keyframes rot10 {
     0% {rotate: -70deg;}
     100% {rotate: -20deg}
 }
-
 
 .title {
     position: relative;
@@ -776,8 +773,8 @@ position: absolute;
 }
 
 @keyframes book1_fall {
-  0% {top: -15vw;}
-  20% {top: 20vw;}
+  0%   {top: -15vw;}
+  20%  {top: 20vw;}
   100% {top: 20vw;}
 }
 
@@ -789,9 +786,9 @@ position: absolute;
 }
 
 @keyframes book2_fall {
-  0% {top: -15vw;}
-  20% {top:-10vw;}
-  40% {top: 17vw;}
+  0%   {top: -15vw;}
+  20%  {top:-10vw;}
+  40%  {top: 17vw;}
   100% {top: 17vw;}
 }
 
@@ -803,9 +800,9 @@ position: absolute;
 }
 
 @keyframes book3_fall {
-  0% {top: -15vw;}
-  40% {top:-10vw;}
-  60% {top: 13vw;}
+  0%   {top: -15vw;}
+  40%  {top:-10vw;}
+  60%  {top: 13vw;}
   100% {top: 13vw;}
 }
 
@@ -817,9 +814,9 @@ position: absolute;
 }
 
 @keyframes book4_fall {
-  0% {top: -15vw;}
-  60% {top:-10vw;}
-  80% {top: 10vw;}
+  0%   {top: -15vw;}
+  60%  {top:-10vw;}
+  80%  {top: 10vw;}
   100% {top: 10vw;}
 }
 
@@ -828,14 +825,15 @@ position: absolute;
 }
 
 @keyframes slide {
-  0% {margin-left: 0vw;}
-  80% {margin-left: 0vw;}
+  0%  {margin-left: 0vw;}
+  80%  {margin-left: 0vw;}
   100% {margin-left: 30vw;}
 }
 
 .page {
     position: relative;
     width: 50vw;
+    height: 58vw;
 }
 
 .page_img {
@@ -843,15 +841,103 @@ position: absolute;
     height: 100%;
 }
 
+.zuki {
+    position: absolute;
+    margin-top: -58vw;
+    width: 50vw;
+    height: 58vw;
+    overflow: hidden;
+}
 
+.zuk1 {
+    width: 8vw;
+    position: absolute;
+    animation: move1 12s linear infinite,
+               spin1 12s linear infinite;
+}
 
+@keyframes move1 {
+    0%   { top: 5%;  left: 5%; }
+    25%  { top: 10%; left: 80%; }
+    50%  { top: 70%; left: 70%; }
+    75%  { top: 80%; left: 10%; }
+    100% { top: 5%;  left: 5%; }
+}
 
+@keyframes spin1 {
+    0%   { transform: rotate(100deg); }
+    25%  { transform: rotate(100deg); }
+    26%  { transform: rotate(210deg); }
+    50%  { transform: rotate(210deg); }
+    51%  { transform: rotate(280deg); }
+    75%  { transform: rotate(280deg); } 
+    76%  { transform: rotate(360deg); }
+    99%  { transform: rotate(360deg); } 
+    100% { transform: rotate(460deg); }
+}
 
+.zuk2 {
+    width: 8vw;
+    position: absolute;
+    animation:
+        move2 9s linear infinite,
+        spin2 9s linear infinite;
+}
 
+@keyframes move2 {
+    0%   { top: 60%; left: 10%; }
+    30%  { top: 5%;  left: 60%; }
+    60%  { top: 80%; left: 80%; }
+    100% { top: 60%; left: 10%; }
+}
 
+@keyframes spin2 {
+    0%   { transform: rotate(0deg); }
+    30%  { transform: rotate(0deg); }
+    31%  { transform: rotate(90deg); }
+    60%  { transform: rotate(90deg); }
+    61%  { transform: rotate(260deg); }
+    99%  { transform: rotate(260deg); }
+    100% { transform: rotate(360deg); }
+}
 
+.zuk3 {
+    width: 7vw;
+    position: absolute;
+     animation:
+        move3 14s linear infinite,
+        spin3 14s linear infinite;
+}
 
+@keyframes move3 {
+    0%   { top: 30%; left: 30%; }
+    25%  { top: 0%;  left: 50%; }
+    50%  { top: 70%; left: 70%; }
+    75%  { top: 80%; left: 40%; }
+    100% { top: 30%; left: 30%; }
+}
 
+@keyframes spin3 {
+    0%   { transform: rotate(0deg); }
+    25%  { transform: rotate(0deg); }
+    26%  { transform: rotate(120deg); }
+    50%  { transform: rotate(120deg); }
+    51%  { transform: rotate(200deg); }
+    75%  { transform: rotate(200deg); }
+    76%  { transform: rotate(290deg); }
+    99%  { transform: rotate(290deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.zuk4 {
+    width: 7vw;
+    position: absolute;
+}
+
+.zuk5 {
+    width: 7vw;
+    position: absolute;
+}
 
 
 
@@ -936,6 +1022,7 @@ position: absolute;
     width: 100%;
     margin-top: 24vw;
     position: relative;
+    overflow-x: hidden;
 }
 
 .line p {
@@ -951,12 +1038,8 @@ position: absolute;
 }
 
 @keyframes row {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
+  0% {transform: translateX(0%);}
+  100% {transform: translateX(-100%);}
 }
 
 .line:hover {

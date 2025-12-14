@@ -1126,3 +1126,138 @@ position: absolute;
     50%  { transform: translateX(-100vw); }
     100% { transform: translateX(0); } 
 }
+
+.kniga1 {
+    position: absolute;
+    margin-left: 18vw;
+    margin-top: -35vw;
+    width: 27.5vw;
+    transition: transform 0.4s ease;
+}
+
+.kniga1_img {
+    width: 100%;
+    height: 100%;
+}
+
+.kniga1:hover {
+    transform: translateY(-20vw);
+}
+
+.kniga2 {
+    position: absolute;
+    margin-top: -35vw;
+    margin-left: 26vw;
+    width: 27.5vw;
+    transition: transform 0.4s ease;
+}
+
+.kniga2_img {
+    width: 100%;
+    height: 100%;
+}
+
+.kniga2:hover {
+    transform: translateY(-20vw);
+}
+
+.kniga3 {
+    position: absolute;
+    margin-top: -35vw;
+    margin-left: 34vw;
+    width: 27.5vw;
+    transition: transform 0.4s ease;
+}
+
+.kniga3_img {
+    width: 100%;
+    height: 100%;
+}
+
+.kniga3:hover {
+    transform: translateY(-20vw);
+}
+
+.kniga4 {
+    position: absolute;
+    margin-top: -35vw;
+    margin-left: 42vw;
+    width: 27.5vw;
+    transition: transform 0.4s ease;
+}
+
+.kniga4_img {
+    width: 100%;
+    height: 100%;
+}
+
+.kniga4:hover {
+    transform: translateY(-20vw);
+}
+
+.kniga5 {
+    position: absolute;
+    margin-top: -35vw;
+    margin-left: 50vw;
+    width: 27.5vw;
+    transition: transform 0.4s ease;
+}
+
+.kniga5_img {
+    width: 100%;
+    height: 100%;
+}
+
+.kniga5:hover {
+    transform: translateY(-20vw);
+}
+
+.podval_back {
+    position: relative;
+    width: 100%;
+    height: 18vw;
+    overflow: hidden;
+}
+
+.podval_img {
+    height: 100%;
+}
+
+.bite1_div {
+    position: absolute;
+    margin-top: -18vw;
+    width: 50vw;
+    height: 18vw;
+    overflow: hidden;
+}
+
+.bite1_img {
+    width: 100%;
+    margin-top: 2vw;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.bite1_div:hover .bite1_img {
+    opacity: 1;
+}
+
+.bite2_div {
+    position: absolute;
+    margin-top: -18vw;
+    margin-left: 60vw;
+    width: 40vw;
+    height: 18vw;
+    overflow: hidden;
+}
+
+.bite2_img {
+    width: 100%;
+    margin-top: 2.2vw;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.bite2_div:hover .bite2_img {
+    opacity: 1;
+}

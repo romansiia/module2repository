@@ -2105,7 +2105,7 @@
     position: absolute;
     width: 100vw;
     height: 134vw;
-    overflow-y: hidden;
+    overflow: hidden;
     margin-top: 580vw;
 }
 
@@ -2113,9 +2113,6 @@
     display: none;
 }
 
-.chervaki_mob {
-    display: none;
-}
 
 @keyframes sprite_ipd {
     0%   { transform: translateX(0%); }
@@ -2127,8 +2124,8 @@
 .kniga1 {
     position: absolute;
     margin-left: 4vw;
-    margin-top: 660vw;
-    width: 40vw;
+    margin-top: 653vw;
+    width: 45vw;
 }
 
 .kniga1_img {
@@ -2138,9 +2135,9 @@
 
 .kniga2 {
     position: absolute;
-    margin-top: 660vw;
+    margin-top: 653vw;
     margin-left: 16vw;
-    width: 40vw;
+    width: 45vw;
 }
 
 .kniga2_img {
@@ -2150,9 +2147,9 @@
 
 .kniga3 {
     position: absolute;
-    margin-top: 660vw;
+    margin-top: 653vw;
     margin-left: 28vw;
-    width: 40vw;
+    width: 45vw;
 }
 
 .kniga3_img {
@@ -2162,9 +2159,9 @@
 
 .kniga4 {
     position: absolute;
-    margin-top: 660vw;
+    margin-top: 620vw;
     margin-left: 40vw;
-    width: 40vw;
+    width: 45vw;
 }
 
 .kniga4_img {
@@ -2174,9 +2171,9 @@
 
 .kniga5 {
     position: absolute;
-    margin-top: 660vw;
+    margin-top: 653vw;
     margin-left: 52vw;
-    width: 40vw;
+    width: 45vw;
 }
 
 .kniga5_img {

@@ -1024,11 +1024,11 @@ position: absolute;
 .chervi_img { 
     height: 100%; 
     width: 600%; 
-    animation: sprite3 3s steps(1) infinite; 
+    animation: sprite_chervi 3s steps(1) infinite; 
     position: absolute; 
 } 
 
-@keyframes sprite3 { 
+@keyframes sprite_chervi { 
     0%  { transform: translateX(0vw); } 
     17% { transform: translateX(-50vw); } 
     33% { transform: translateX(-100vw); } 
